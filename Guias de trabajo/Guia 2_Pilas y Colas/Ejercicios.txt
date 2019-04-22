@@ -1,0 +1,31 @@
+Tomado de: http://www.cs.princeton.edu/courses/archive/spr01/cs126/exercises/adt.html 
+
+STACKS AND QUEUES
+
+
+ 1. (Sedgewick, Exercise 4.6).  A letter means push and an asterisk means pop in the
+    following sequence.  Give the sequence of values returned by the pop operations
+    when this sequence of operations is performed on an initially empty LIFO stack.
+
+         E A S * Y * Q U E * * * S T * * * I O * N * * *
+
+ 2. (Sedgewick, Exercise 4.31).  A letter means put and an asterisk means get in the 
+    following sequence.  Give the sequence of values returned by the get operation
+    when this sequence of operations is performed on an initially empty FIFO queue.
+
+         E A S * Y * Q U E * * * S T * * * I O * N * * *
+ 
+ 3. Write a program that reads in a sequence of characters and prints them
+    in reverse order.  Use a stack.
+
+ 4. Write a program that reads in a sequence of characters, and determines whether
+    its parentheses, braces, and curly braces are "balanced."  Hint:  for left
+    delimiters, push onto stack; for right delimiters, pop from stack and check
+    whether popped element matches right delimiter.
+
+ 5. Write a program that reads in a positive integer and prints the binary
+    representation of that integer.  Hint:  divide the integer by 2.
+
+ 6. Add an interface function void STACKmultipop(int k) that pops k elements from
+    the stack, or until the stack is empty.
+
